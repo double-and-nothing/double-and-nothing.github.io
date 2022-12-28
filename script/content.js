@@ -9,7 +9,7 @@ const DATA = {
         FAVICON_SRC: "img/logo_dummy.png",
         PROJECT_TITLE: "Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams",
         PROJECT_SUBTITLE: {
-            "name": "NDSS Symposium, 2023",
+            "name": "Network and Distributed Systems Security (NDSS) Symposium, 2023",
             "url": "https://www.ndss-symposium.org/ndss2023/",
         },
         AUTHOR_NAME: "Xigao Li",
@@ -21,10 +21,10 @@ const DATA = {
 
             "Through a 6-month-long experiment, CryptoScamTracker identified a total of 10,079 giveaway scam websites targeting users of all popular cryptocurrencies. Next to analyzing the hosting and domain preferences of giveaway scammers, we perform the first quantitative analysis of stolen funds using the public blockchains of the abused cryptocurrencies, extracting the transactions corresponding to 2,266 wallets belonging to scammers. We find that just for the scams discovered in our reporting period, attackers have stolen the equivalent of tens of millions of dollars, organizing large-scale campaigns across different cryptocurrencies. Lastly, we find evidence that attackers try to re-victimize users by offering fund-recovery services and that some victims send funds multiple times to the same scammers."
         ],
-        OVERVIEW: {
-            "src": "img/overview_dummy.png",
-            "legend": "Dummy overview of our method.",
-        }
+        // OVERVIEW: {
+        //     "src": "img/overview_dummy.png",
+        //     "legend": "Dummy overview of our method.",
+        // }
     },
     CONTENT: [ // If you want to add other sections, add them with their title (used for navigation) and the html code of the section
         // {
@@ -59,8 +59,8 @@ const DATA = {
             "icon": "img/paper.svg",
             "links": [
                 {
-                    "name": "PDF",
-                    "url": "paper/crypto_scam_project_paper.pdf",
+                    "name": "PDF (available soon)",
+                    "url": "#",
                     "icon": "img/paper_copy.svg"
                 },
             ],
@@ -70,7 +70,7 @@ const DATA = {
             "icon": "img/code.svg",
             "links": [
                 {
-                    "name": "Dataset",
+                    "name": "Dataset (available soon)",
                     "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
@@ -87,7 +87,7 @@ const DATA = {
             "links": [
                 {
                     "name": "Example Video:<br> Cryptocurrency Giveaway Scam",
-                    "url": "#",
+                    "url": "videos/crypto_scams_youtube.mp4",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
             ],
