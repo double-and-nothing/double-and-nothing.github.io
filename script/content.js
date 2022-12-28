@@ -87,7 +87,7 @@ const DATA = {
             "links": [
                 {
                     "name": "Example Video:<br> Cryptocurrency Giveaway Scam",
-                    "url": "videos/crypto_scams_youtube.mp4",
+                    "url": "video/crypto_scams_youtube.mp4",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
             ],
