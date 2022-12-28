@@ -39,18 +39,18 @@ const DATA = {
     CONTRIBUTORS: [
         {
             "name": "Xigao Li",
-            "img": "img/contributor_dummy.png",
-            "url": "#xigaoli.com"
+            "img": "img/xigao_2031_sq.png",
+            "url": "https://xigaoli.com"
         },
         {
             "name": "Anurag Yepuri",
-            "img": "img/contributor_dummy.png",
+            "img": "img/blank_profile_pic.png",
             "url": "#"
         },
         {
             "name": "Nick Nikiforakis",
-            "img": "img/contributor_dummy.png",
-            "url": "securitee.org"
+            "img": "img/nick_new_small.jpg",
+            "url": "https://securitee.org"
         },
     ],
     LINKS: [
@@ -66,7 +66,7 @@ const DATA = {
             ],
         },
         {
-            "title": "Code",
+            "title": "Dataset",
             "icon": "img/code.svg",
             "links": [
                 {
@@ -74,8 +74,19 @@ const DATA = {
                     "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
+                // {
+                //     "name": "Example Video:<br> Cryptocurrency Giveaway Scam",
+                //     "url": "#",
+                //     "icon": "img/GitHub-Mark-Light-32px.png"
+                // },
+            ],
+        },
+        {
+            "title": "Videos",
+            "icon": "img/code.svg",
+            "links": [
                 {
-                    "name": "Example Video of Cryptocurrency Giveaway Scam",
+                    "name": "Example Video:<br> Cryptocurrency Giveaway Scam",
                     "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
@@ -86,7 +97,7 @@ const DATA = {
         @article{articlename,
             author    = {xigao2023doublenothing},
             title     = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
-            booktitle   = {Network and Distributed Systems Security (NDSS) Symposium},
+            booktitle = {Network and Distributed Systems Security (NDSS) Symposium},
             year      = {2023}
         }
     `,
@@ -94,16 +105,16 @@ const DATA = {
         LOGOS: [
             {
                 "name": "PragSec Lab",
-                "src": "img/logo_dummy.png",
+                "src": "img/pragsec.png",
                 "url": "#"
             },
             {
                 "name": "Stony Brook University",
-                "src": "img/logo_dummy.png",
+                "src": "img/sbu.png",
                 "url": "#"
             },
         ],
-        COPYRIGHT: `Copyright PragSec Lab 20XX`
+        COPYRIGHT: `Copyright PragSec Lab 2023`
     },
 }
 // ===== END CUSTOM DATA =====
