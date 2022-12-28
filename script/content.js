@@ -7,19 +7,19 @@ const DATA = {
     },
     HEAD: {
         FAVICON_SRC: "img/logo_dummy.png",
-        PROJECT_TITLE: "Project Title",
+        PROJECT_TITLE: "Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams",
         PROJECT_SUBTITLE: {
-            "name": "XXX Conference,  20XX",
-            "url": "#",
+            "name": "NDSS Symposium, 2023",
+            "url": "https://www.ndss-symposium.org/ndss2023/",
         },
-        AUTHOR_NAME: "Ricardo Garcia",
+        AUTHOR_NAME: "Xigao Li",
         VIDEO_SRC: "video/dummy_video.mp4",
     },
     ABSTRACT: {
         TEXT: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra finibus quam, nec ornare mi posuere id. Nullam vitae efficitur neque. Maecenas rutrum nunc sit amet rhoncus iaculis. Pellentesque rutrum at nisl vitae dapibus. Maecenas auctor faucibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum a leo porttitor, mollis diam id, porta odio. Donec convallis porttitor lectus sed fringilla. Nulla facilisi. Curabitur tincidunt turpis sit amet leo lobortis lacinia.",
-            "Nullam rutrum leo quis purus cursus fermentum. Vivamus nec iaculis mi. Suspendisse pharetra eleifend turpis ut dictum. Vivamus nisi tellus, volutpat nec quam sit amet, ornare facilisis est. Fusce semper ultrices aliquet. Morbi sagittis eros ac dui rhoncus, sit amet semper purus varius. Duis finibus turpis orci, eu auctor nunc maximus nec. Curabitur aliquet tincidunt mauris faucibus iaculis. Donec sem orci, placerat quis tempor id, fringilla eu dolor. Etiam ultrices maximus lacus, et suscipit erat suscipit a. Proin est erat, maximus venenatis vestibulum vel, sagittis ac nisl. Proin fermentum ullamcorper tortor, eu rutrum libero mattis eu.",
-            "Pellentesque gravida augue augue, ac posuere lacus accumsan in. Suspendisse vel magna accumsan, porta lorem sed, eleifend massa. Proin auctor euismod ornare. Fusce convallis volutpat magna non laoreet. Quisque nibh nunc, tempus ac lacinia vel, condimentum sed est. Maecenas ultrices nunc eget est interdum semper. Nulla eu varius mi, non euismod enim. Mauris mollis urna ut diam fringilla rhoncus. Nam efficitur sem vel ultrices tempor. Vestibulum hendrerit, nulla vitae tempus ultricies, magna nulla pulvinar dui, eget accumsan ipsum arcu et lacus. Integer vel fringilla tellus. Donec pellentesque blandit elit a luctus."
+            "As cryptocurrencies increase in popularity and users obtain and manage their own assets, attackers are pivoting from just abusing cryptocurrencies as a payment mechanism, to stealing crypto assets from end users. In this paper, we report on the first large-scale analysis of cryptocurrency giveaway scams. Giveaway scams are deceptively simple scams where attackers set up webpages advertising fake events and promising users to double or triple the funds that they send to a specific wallet address. To understand the population of these scams in the wild we design and implement CryptoScamTracker, a tool that uses Certificate Transparency logs to identify likely giveaway scams.",
+
+            "Through a 6-month-long experiment, CryptoScamTracker identified a total of 10,079 giveaway scam websites targeting users of all popular cryptocurrencies. Next to analyzing the hosting and domain preferences of giveaway scammers, we perform the first quantitative analysis of stolen funds using the public blockchains of the abused cryptocurrencies, extracting the transactions corresponding to 2,266 wallets belonging to scammers. We find that just for the scams discovered in our reporting period, attackers have stolen the equivalent of tens of millions of dollars, organizing large-scale campaigns across different cryptocurrencies. Lastly, we find evidence that attackers try to re-victimize users by offering fund-recovery services and that some victims send funds multiple times to the same scammers."
         ],
         OVERVIEW: {
             "src": "img/overview_dummy.png",
@@ -27,40 +27,30 @@ const DATA = {
         }
     },
     CONTENT: [ // If you want to add other sections, add them with their title (used for navigation) and the html code of the section
-        {
-            "name": "Section 1",
-            "html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra finibus quam, nec ornare mi posuere id. Nullam vitae efficitur neque. Maecenas rutrum nunc sit amet rhoncus iaculis. Pellentesque rutrum at nisl vitae dapibus. Maecenas auctor faucibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum a leo porttitor, mollis diam id, porta odio. Donec convallis porttitor lectus sed fringilla. Nulla facilisi. Curabitur tincidunt turpis sit amet leo lobortis lacinia.",
-        },
-        {
-            "name": "Section 2",
-            "html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra finibus quam, nec ornare mi posuere id. Nullam vitae efficitur neque. Maecenas rutrum nunc sit amet rhoncus iaculis. Pellentesque rutrum at nisl vitae dapibus. Maecenas auctor faucibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum a leo porttitor, mollis diam id, porta odio. Donec convallis porttitor lectus sed fringilla. Nulla facilisi. Curabitur tincidunt turpis sit amet leo lobortis lacinia.",
-        },
+        // {
+        //     "name": "Section 1",
+        //     "html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra finibus quam, nec ornare mi posuere id. Nullam vitae efficitur neque. Maecenas rutrum nunc sit amet rhoncus iaculis. Pellentesque rutrum at nisl vitae dapibus. Maecenas auctor faucibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum a leo porttitor, mollis diam id, porta odio. Donec convallis porttitor lectus sed fringilla. Nulla facilisi. Curabitur tincidunt turpis sit amet leo lobortis lacinia.",
+        // },
+        // {
+        //     "name": "Section 2",
+        //     "html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra finibus quam, nec ornare mi posuere id. Nullam vitae efficitur neque. Maecenas rutrum nunc sit amet rhoncus iaculis. Pellentesque rutrum at nisl vitae dapibus. Maecenas auctor faucibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum a leo porttitor, mollis diam id, porta odio. Donec convallis porttitor lectus sed fringilla. Nulla facilisi. Curabitur tincidunt turpis sit amet leo lobortis lacinia.",
+        // },
     ],
     CONTRIBUTORS: [
         {
-            "name": "Contributor 1",
+            "name": "Xigao Li",
+            "img": "img/contributor_dummy.png",
+            "url": "#xigaoli.com"
+        },
+        {
+            "name": "Anurag Yepuri",
             "img": "img/contributor_dummy.png",
             "url": "#"
         },
         {
-            "name": "Contributor 2",
+            "name": "Nick Nikiforakis",
             "img": "img/contributor_dummy.png",
-            "url": "#"
-        },
-        {
-            "name": "Contributor 3",
-            "img": "img/contributor_dummy.png",
-            "url": "#"
-        },
-        {
-            "name": "Contributor 4",
-            "img": "img/contributor_dummy.png",
-            "url": "#"
-        },
-        {
-            "name": "Contributor 5",
-            "img": "img/contributor_dummy.png",
-            "url": "#"
+            "url": "securitee.org"
         },
     ],
     LINKS: [
@@ -69,7 +59,7 @@ const DATA = {
             "icon": "img/paper.svg",
             "links": [
                 {
-                    "name": "arXiv",
+                    "name": "PDF",
                     "url": "#",
                     "icon": "img/paper_copy.svg"
                 },
@@ -80,12 +70,12 @@ const DATA = {
             "icon": "img/code.svg",
             "links": [
                 {
-                    "name": "Repository 1",
+                    "name": "Dataset",
                     "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
                 {
-                    "name": "Repository 2",
+                    "name": "Example Video of Cryptocurrency Giveaway Scam",
                     "url": "#",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
@@ -94,26 +84,26 @@ const DATA = {
     ],
     CITATION: ` \
         @article{articlename,
-            author    = {Author1 and Author2 and Author3 and Author4 and Author5},
-            title     = {Paper Title},
-            journal   = {arXiv preprint arXiv:TBD},
-            year      = {20XX}
+            author    = {xigao2023doublenothing},
+            title     = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
+            booktitle   = {Network and Distributed Systems Security (NDSS) Symposium},
+            year      = {2023}
         }
     `,
     FOOTER: {
         LOGOS: [
             {
-                "name": "University 1",
+                "name": "PragSec Lab",
                 "src": "img/logo_dummy.png",
                 "url": "#"
             },
             {
-                "name": "University 2",
+                "name": "Stony Brook University",
                 "src": "img/logo_dummy.png",
                 "url": "#"
             },
         ],
-        COPYRIGHT: `Copyright Owner 20XX`
+        COPYRIGHT: `Copyright PragSec Lab 20XX`
     },
 }
 // ===== END CUSTOM DATA =====
@@ -311,9 +301,9 @@ function displayFooter() {
 function displayPage() {
     displayTitle();
     displayNav();
-    displayVideo();
+    // displayVideo();
     displayAbstract();
-    displayOverview();
+    // displayOverview();
     displayContentSections();
     displayContributors();
     displayLinks();
