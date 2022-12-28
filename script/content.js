@@ -60,7 +60,7 @@ const DATA = {
             "links": [
                 {
                     "name": "PDF",
-                    "url": "#",
+                    "url": "paper/crypto_scam_project_paper.pdf",
                     "icon": "img/paper_copy.svg"
                 },
             ],
