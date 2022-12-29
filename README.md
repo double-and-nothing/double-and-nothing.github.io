@@ -1,3 +1,10 @@
+
+# Paper Website
+
+## Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams
+
+[double-and-nothing.github.io](https://double-and-nothing.github.io)
+
 # dark-academic-website
 
 Dark Elegant Flavored - Academic Project Website Template
