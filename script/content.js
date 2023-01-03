@@ -71,7 +71,7 @@ const DATA = {
             "links": [
                 {
                     "name": "Dataset",
-                    "url": "paper/double_and_nothing_dataset.csv",
+                    "url": "paper/dan_dataset.csv",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
                 // {
