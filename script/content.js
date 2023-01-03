@@ -70,8 +70,8 @@ const DATA = {
             "icon": "img/code.svg",
             "links": [
                 {
-                    "name": "Dataset (available soon)",
-                    "url": "#",
+                    "name": "Dataset",
+                    "url": "paper/double_and_nothing_dataset.csv",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
                 // {
