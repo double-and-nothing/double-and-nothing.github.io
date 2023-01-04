@@ -190,7 +190,6 @@ function displayAbstract() {
         <hr>
         ${DATA.ABSTRACT.TEXT.map(text => `<p>${text}</p>`).join("")}
         <br>
-        <br>
     </div>
   `;
 }
@@ -315,7 +314,7 @@ function displayPage() {
     // displayVideo();
     displayAbstract();
     // displayOverview();
-    displayContentSections();
+    // displayContentSections();
     displayContributors();
     displayLinks();
     displayCitation();
