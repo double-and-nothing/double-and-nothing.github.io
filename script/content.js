@@ -94,9 +94,9 @@ const DATA = {
         },
     ],
     CITATION: ` \
-        @article{articlename,
-            author    = {xigao2023doublenothing},
+        @article{xigao2023doublenothing,
             title     = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
+            author    = {Li, Xigao and Yepuri, Anurag and Nikiforakis, Nick},
             booktitle = {Network and Distributed Systems Security (NDSS) Symposium},
             year      = {2023}
         }
