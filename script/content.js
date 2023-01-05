@@ -70,8 +70,8 @@ const DATA = {
             "icon": "img/code.svg",
             "links": [
                 {
-                    "name": "Dataset (available soon)",
-                    "url": "#",
+                    "name": "Dataset",
+                    "url": "paper/dan_dataset.csv",
                     "icon": "img/GitHub-Mark-Light-32px.png"
                 },
                 // {
@@ -94,9 +94,9 @@ const DATA = {
         },
     ],
     CITATION: ` \
-        @article{articlename,
-            author    = {xigao2023doublenothing},
+        @article{xigao2023doublenothing,
             title     = {Double and Nothing: Understanding and Detecting Cryptocurrency Giveaway Scams},
+            author    = {Li, Xigao and Yepuri, Anurag and Nikiforakis, Nick},
             booktitle = {Network and Distributed Systems Security (NDSS) Symposium},
             year      = {2023}
         }
@@ -189,7 +189,6 @@ function displayAbstract() {
         <h2 class="text-center">Abstract</h2>
         <hr>
         ${DATA.ABSTRACT.TEXT.map(text => `<p>${text}</p>`).join("")}
-        <br>
         <br>
     </div>
   `;
@@ -315,7 +314,7 @@ function displayPage() {
     // displayVideo();
     displayAbstract();
     // displayOverview();
-    displayContentSections();
+    // displayContentSections();
     displayContributors();
     displayLinks();
     displayCitation();
