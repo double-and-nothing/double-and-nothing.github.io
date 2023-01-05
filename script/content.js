@@ -44,7 +44,7 @@ const DATA = {
         },
         {
             "name": "Anurag Yepuri",
-            "img": "img/blank_profile_pic.png",
+            "img": "img/anurag.jpg",
             "url": "#"
         },
         {
