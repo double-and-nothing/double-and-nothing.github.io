@@ -59,8 +59,8 @@ const DATA = {
             "icon": "img/paper.svg",
             "links": [
                 {
-                    "name": "PDF (available soon)",
-                    "url": "#",
+                    "name": "PDF",
+                    "url": "paper/ndss23-fall-final584.pdf",
                     "icon": "img/paper_copy.svg"
                 },
             ],
